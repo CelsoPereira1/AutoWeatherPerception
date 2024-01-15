@@ -10,6 +10,7 @@ inference time of 2.50 milliseconds (ms). The second architecture prioritizes pe
 Compared to other state-of-the-art architectures, the proposed methods show an important trade-off between accuracy performance, inference time, and memory allocation, which are crucial parameters for enabling autonomous driving.
 
 Proposed architectures and baseline:
+
 Multi-task architecture featuring the MobileNetV3-Small encoder and early fusion: [MobileNetV3.pdf](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938981/MobileNetV3.pdf)
 Multi-task architecture featuring the MobileNetV3-Small encoder and cross-modal self-attention intermediate fusion: [MobileNetV3ViT.pdf](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938983/MobileNetV3ViT.pdf)
 Baseline architecture featuring the TransFuser encoder and cross-modal self-attention intermediate fusion: [ResNetViT.pdf](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938988/ResNetViT.pdf)
