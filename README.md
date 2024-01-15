@@ -11,15 +11,15 @@ Weather and meteorological optical range (MOR) perception is crucial for smooth 
 
 ### Multi-task architecture featuring the MobileNetV3-Small encoder and early fusion:
 
-![MobileNetV3 Architecture](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938981/MobileNetV3.pdf)
+![MobileNetV3](https://github.com/CelsoPereira1/AutoWeatherPerception/assets/60965151/c899ca40-ca7b-4da9-9417-b5c30073606d)
 
 ### Multi-task architecture featuring the MobileNetV3-Small encoder and cross-modal self-attention intermediate fusion:
 
-![MobileNetV3ViT Architecture](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938983/MobileNetV3ViT.pdf)
+![MobileNetV3ViT](https://github.com/CelsoPereira1/AutoWeatherPerception/assets/60965151/7cbdaaec-85ea-4e59-b121-0c92e8b4049e)
 
 ### Baseline architecture featuring the TransFuser encoder and cross-modal self-attention intermediate fusion:
 
-![ResNetViT Architecture](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938988/ResNetViT.pdf)
+![ResNetViT](https://github.com/CelsoPereira1/AutoWeatherPerception/assets/60965151/07430ef6-eeb3-472f-aeb1-1cb7734b2b73)
 
 ## Code:
 
