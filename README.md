@@ -4,10 +4,9 @@ Weather and Meteorological Optical Range Classification for Autonomous Driving
 Companion code to the publication:
 "Weather and Meteorological Optical Range Classification for Autonomous Driving" by Celso Pereira, João N. D. Fernandes, Ricardo P. M. Cruz, João Ribeiro Pinto, Jaime S. Cardoso. IEEE Transactions on Intelligent Vehicles. (to appear)
 
-Abstract: Weather and meteorological optical range (MOR) perception is crucial for smooth and safe autonomous driving (AD). This article introduces two deep learning-based architectures designed for concurrent weather and MOR classification in AD, employing multi-modal, multi-task approaches. 
-Extensive experiments employing the publicly available FogChamber dataset, demonstrate that the first architecture, characterized by its lightweight design and simplicity, achieves an accuracy of 98.88% in weather classification and 89.77% in MOR classification, with a modest memory allocation of 5.33 megabytes (MB) and an 
-inference time of 2.50 milliseconds (ms). The second architecture prioritizes performance, achieving higher accuracies of 99.38% in weather classification and 91.88% in MOR classification. However, it requires a more substantial memory allocation of 54.06 MB and exhibits a longer inference time of 15.55 ms. 
-Compared to other state-of-the-art architectures, the proposed methods show an important trade-off between accuracy performance, inference time, and memory allocation, which are crucial parameters for enabling autonomous driving.
+Abstract: 
+
+Weather and meteorological optical range (MOR) perception is crucial for smooth and safe autonomous driving (AD). This article introduces two deep learning-based architectures designed for concurrent weather and MOR classification in AD, employing multi-modal, multi-task approaches. Extensive experiments employing the publicly available FogChamber dataset, demonstrate that the first architecture, characterized by its lightweight design and simplicity, achieves an accuracy of 98.88% in weather classification and 89.77% in MOR classification, with a modest memory allocation of 5.33 megabytes (MB) and an inference time of 2.50 milliseconds (ms). The second architecture prioritizes performance, achieving higher accuracies of 99.38% in weather classification and 91.88% in MOR classification. However, it requires a more substantial memory allocation of 54.06 MB and exhibits a longer inference time of 15.55 ms. Compared to other state-of-the-art architectures, the proposed methods show an important trade-off between accuracy performance, inference time, and memory allocation, which are crucial parameters for enabling autonomous driving.
 
 Proposed architectures and baseline:
 
@@ -16,6 +15,7 @@ Multi-task architecture featuring the MobileNetV3-Small encoder and cross-modal 
 Baseline architecture featuring the TransFuser encoder and cross-modal self-attention intermediate fusion: [ResNetViT.pdf](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938988/ResNetViT.pdf)
 
 Code:
+
 The provided Bash script, "W_MOR_Classification_MM_MT&ST.sh," enables the simultaneous execution of code for both multi-task (MT) and single-task (ST) approaches. Users can vary the following options within the script:
 
 NETWORKS: Choose from "MobileNetV3_Early," "MobileNetV3_ViT," and "ResNet_ViT" (Baseline).
