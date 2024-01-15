@@ -7,7 +7,7 @@ Companion code to the submission:
 
 Weather and meteorological optical range (MOR) perception is crucial for smooth and safe autonomous driving (AD). This article introduces two deep learning-based architectures designed for concurrent weather and MOR classification in AD, employing multi-modal, multi-task approaches. Extensive experiments employing the publicly available FogChamber dataset, demonstrate that the first architecture, characterized by its lightweight design and simplicity, achieves an accuracy of 98.88% in weather classification and 89.77% in MOR classification, with a modest memory allocation of 5.33 megabytes (MB) and an inference time of 2.50 milliseconds (ms). The second architecture prioritizes performance, achieving higher accuracies of 99.38% in weather classification and 91.88% in MOR classification. However, it requires a more substantial memory allocation of 54.06 MB and exhibits a longer inference time of 15.55 ms. Compared to other state-of-the-art architectures, the proposed methods show an important trade-off between accuracy performance, inference time, and memory allocation, which are crucial parameters for enabling autonomous driving.
 
-## Proposed Architectures and Baseline
+## Proposed Architectures and Baseline:
 
 ### Multi-task architecture featuring the MobileNetV3-Small encoder and early fusion:
 
