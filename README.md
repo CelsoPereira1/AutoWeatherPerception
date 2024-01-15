@@ -1,8 +1,8 @@
 # AutoWeatherPerception
 Weather and Meteorological Optical Range Classification for Autonomous Driving
 
-Companion code to the publication:
-"Weather and Meteorological Optical Range Classification for Autonomous Driving" by Celso Pereira, João N. D. Fernandes, Ricardo P. M. Cruz, João Ribeiro Pinto, Jaime S. Cardoso. IEEE Transactions on Intelligent Vehicles. (to appear)
+Companion code to the submission:
+"Weather and Meteorological Optical Range Classification for Autonomous Driving" by Celso Pereira, João N. D. Fernandes, Ricardo P. M. Cruz, João Ribeiro Pinto, Jaime S. Cardoso. IEEE Transactions on Intelligent Vehicles.
 
 Abstract: 
 
@@ -11,7 +11,9 @@ Weather and meteorological optical range (MOR) perception is crucial for smooth 
 Proposed architectures and baseline:
 
 Multi-task architecture featuring the MobileNetV3-Small encoder and early fusion: [MobileNetV3.pdf](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938981/MobileNetV3.pdf)
+
 Multi-task architecture featuring the MobileNetV3-Small encoder and cross-modal self-attention intermediate fusion: [MobileNetV3ViT.pdf](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938983/MobileNetV3ViT.pdf)
+
 Baseline architecture featuring the TransFuser encoder and cross-modal self-attention intermediate fusion: [ResNetViT.pdf](https://github.com/CelsoPereira1/AutoWeatherPerception/files/13938988/ResNetViT.pdf)
 
 Code:
@@ -23,6 +25,7 @@ OPT_TECHNIQUES: Select between "Multi_Adaptive" and "Weighted."
 TRAIN_MODEL: Set to either "True" or "False" based on whether the model should be trained or not.
 
 Other fixed parameters include:
+
 EPOCHS: Set, for example, to 50.
 BATCH: Set, for example, to 16.
 SEED: Set, for example, to 10.
