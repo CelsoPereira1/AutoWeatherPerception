@@ -21,14 +21,19 @@ Code:
 The provided Bash script, "W_MOR_Classification_MM_MT&ST.sh," enables the simultaneous execution of code for both multi-task (MT) and single-task (ST) approaches. Users can vary the following options within the script:
 
 NETWORKS: Choose from "MobileNetV3_Early," "MobileNetV3_ViT," and "ResNet_ViT" (Baseline).
+
 OPT_TECHNIQUES: Select between "Multi_Adaptive" and "Weighted."
+
 TRAIN_MODEL: Set to either "True" or "False" based on whether the model should be trained or not.
 
 Other fixed parameters include:
 
 EPOCHS: Set, for example, to 50.
+
 BATCH: Set, for example, to 16.
+
 SEED: Set, for example, to 10.
+
 Users can tailor the script by modifying these parameters to experiment with different network architectures, optimization techniques, and training configurations.
 
 Following the training, validation, and testing phases of the models, their performance can be automatically presented using the provided code in "W_MOR_Classification_MM_MT&ST_Performance.py".
