@@ -25,7 +25,7 @@ Weather and meteorological optical range (MOR) perception is crucial for smooth 
 
 The provided Bash script, "W_MOR_Classification_MM_MT&ST.sh," enables the simultaneous execution of code for both multi-task (MT) and single-task (ST) approaches. Users can vary the following options within the script:
 
-- `NETWORKS`: Choose from "MobileNetV3_Early," "MobileNetV3_ViT," and "ResNet_ViT" (Baseline).
+- `NETWORKS`: Choose from "MobileNetV3_Early", "MobileNetV3_ViT", and "ResNet_ViT" (Baseline).
 
 - `OPT_TECHNIQUES`: Select between "Multi_Adaptive" and "Weighted."
 
