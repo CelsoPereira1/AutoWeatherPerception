@@ -1,7 +1,7 @@
 # Weather and Meteorological Optical Range Classification for Autonomous Driving
 
 Companion code to the submission:
-"Weather and Meteorological Optical Range Classification for Autonomous Driving" by Celso Pereira, João N. D. Fernandes, Ricardo P. M. Cruz, João Ribeiro Pinto, Jaime S. Cardoso. IEEE Transactions on Intelligent Vehicles.
+"Weather and Meteorological Optical Range Classification for Autonomous Driving" by Celso Pereira, Ricardo P. M. Cruz, João N. D. Fernandes, João Ribeiro Pinto, Jaime S. Cardoso. IEEE Transactions on Intelligent Vehicles.
 
 ## Abstract: 
 
